@@ -11,7 +11,7 @@ bigint is used for bigger number value
 string ""
 boolean => true/false
 
-null => standalone value, let humlog ko temp btana hai, and abhi tak wo temp aaya nhi hai, so we use null, not 0 
+null => standalone value, let humlog ko temprature btana hai, and abhi tak wo temprature aaya nhi hai, so we use null, not 0 
 
 undefined => means abhi koi value assing nhi hua hai
 
