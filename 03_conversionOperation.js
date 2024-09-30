@@ -12,7 +12,7 @@ let newScore = "33abc";
 let NewNumber = Number(newScore);
 console.log(NewNumber);
 
-// if we do put value of variable as null
+// if we put value of variable as null
 newScore = null;
 NewNumber = Number(newScore); // this is converting null into 0
 console.log(NewNumber);
