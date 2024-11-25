@@ -1,5 +1,8 @@
+/* array are mutable, i.e. array can be changed unlike of string that are not mutable */
+/* in js, an array can store different data type value */
+
 /* initialisation of array */
-let marks = [91,52,83,34];
+let marks = [91,52,83,34]; 
 console.log(marks);
 console.log(marks.length); /* gives length of the array */
 
@@ -91,7 +94,7 @@ console.log("array after reversing",newArray);
 
 /* splice and slice */
 let NewArray = [1,2,3,4,5,6];
-NewArray.splice(2,1,69,69); // 2nd index se 3 element delete kr do, and 69,69 waha insert kr do
+NewArray.splice(2,1,69,69); // 2nd index se 1 element delete kr do, and 69,69 waha insert kr do
 console.log(NewArray);
 
 // we can get the deleted values by storing it in a variable
@@ -104,3 +107,5 @@ console.log("deleted value area : ",deletedValues);
 newArray = [1,2,3,4,5,6,7,8,9];
 let sliceArray = newArray.slice(2,5); // 2nd index to 4th index ka array return krega
 console.log("sliced array = ",sliceArray);
+
+/* note that slice creates new array whereas splice transform the same array */

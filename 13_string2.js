@@ -2,6 +2,8 @@
         \n : new line
         \t : tab */
 
+/* note that stirng are immutable that is we can't transform a stirng by usign these functions, instead we can create a new string after doing these changes */
+
 
 /* length of string */
 let name = "ujjwal sharma"
@@ -18,8 +20,8 @@ let lc = uc.toLowerCase();
 console.log(lc);
 
 /* this is how we get substring in js */
-let subStr = name.slice(3);
-console.log(subStr); // this will print sub string from index 3 to end
+let subStr = name.slice(3); // this will print sub string from index 3 to end
+console.log(subStr); 
 
 subStr = name.slice(3,7); // print substring from index 3 to 6, 7 not included
 console.log(subStr);
@@ -35,7 +37,7 @@ let newName = "ujjwal sharma";
 let sentence = name.concat(" is girlfriend of ",newName, " ok");
 console.log(sentence);
 // we can also add like that
-console.log(name +"is a girlfriend of "+newName);
+console.log(name +" is a sister of "+newName);
 
 
 /* we can remove extra spaces form the both side of the string using trim function */
@@ -47,4 +49,3 @@ console.log(str2);
 /* we can also replace element of the  */
 console.log(name);
 console.log(name.replace(name[3],'d'))
-

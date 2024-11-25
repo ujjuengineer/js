@@ -8,7 +8,7 @@ const marks = {
 }
 console.log(Object.keys(marks));
 // object.keys(name) gives an array of all the keys of your marks object
-// to get one element of this array we use
+// to get one element of this array we use 
 console.log("first keys of marks object is",Object.keys(marks)[0])
 // to get the value of the key we use marks[object.keys(marks)[0]]
 console.log("the value of",Object.keys(marks)[0],"is", marks[Object.keys(marks)[0]])

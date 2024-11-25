@@ -7,7 +7,7 @@ for(let a = 0; a<2; a++){
 let obj = {
     "ujjwal" : 100, 
     "ganesh" : 230,
-    "gyandu" : 300,
+    "shree ram" : 300,
     "siddhi" : 500
 }
 

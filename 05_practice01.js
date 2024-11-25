@@ -5,7 +5,7 @@ let a = 2;
 let ans = str + a;
 console.log(ans);
 // number are getting added in string
-
+console.log() // to skip a line
 
 // Question-2 use typeof to find the data type of the string in the last question
 console.log(typeof ans);

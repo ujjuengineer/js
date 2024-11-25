@@ -1,12 +1,12 @@
 console.log("premittive data type");
 // nn bb ss u
 // 7 types of primittive data type
-let a = null; 
-let b = 345; 
-let c = true;
-let d = "ujjwal sharma";
-let e = BigInt("567") + BigInt("3");
-let f = undefined;
+let a = null; // object
+let b = 345; // int
+let c = true; // bool
+let d = "ujjwal sharma"; // string
+let e = BigInt("567") + BigInt("3"); 
+let f = undefined; 
 // if we do like "let f;" then it also fall under undefined categeory of data type, we don't need to mention that
 
 console.log(a,b,c,d,e,f);

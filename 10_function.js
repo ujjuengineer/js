@@ -4,7 +4,7 @@ console.log("round of",num,"is",Math.round(num));
 // Math.round(value)
 
 
-function Avrage(a,b){ // a and b are passed by values
+function Avrage(a,b){ // a and b are passed by values 
     return (a+b)/2;
 }
 
@@ -27,3 +27,15 @@ const fun = () => {
 }
 
 fun();
+
+
+// IMPORTANT NOTE : 
+/* 
+    if you defined any function in traditional way in js, like function fun(x,y){}
+    then you can call this funciton before it's declaration 
+    
+    but the function is defined in modern way const fun = (a,b) => {}
+        then we can't call this function before its declaration, it will throw an 
+        error
+                                               
+*/

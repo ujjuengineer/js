@@ -11,18 +11,21 @@ console.log(`${word} ${sentence.includes(word) ? "is present": "is not present"}
 
 /* extract the amount out of the string "please give rs 1000" */
 let sent = "please give rs 1000";
-sent = sent.slice("please give rs ".length);
+sent = sent.slice("please give rs ".length); // starting index me wo length chla gya
 console.log(sent);
-// sent is still stirng
+// sent is still string
 console.log(typeof sent);
 // we can convert string to number using
 sent = Number.parseInt(sent);
 console.log(typeof sent);
 
 
-/* can we change the character of string just like array */
+/* can we change the character of string just like array ???? */
+// no !
 let name = "ujjwal sharma";
 name[4] = "k";
-console.log(name)
+console.log(name); // since string is inmutable so we can't change it, although we can create a new string and store the changed sting in it
 /* we can change it using replace function */
-console.log(name.replace(name[4], "k"));
+let newname = name.replace(name[4], "k");
+console.log(name);
+console.log(newname);
