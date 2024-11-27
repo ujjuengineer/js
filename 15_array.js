@@ -5,7 +5,7 @@
 let marks = [91,52,83,34]; 
 console.log(marks);
 console.log(marks.length); /* gives length of the array */
-
+console.log()
 
 /* we can print marks using for in loop */
 for(let a in marks) {
@@ -18,7 +18,7 @@ for(let a = 0; a<marks.length; a++) {
     console.log(marks[a]);
 }
 
-/* array is a type of object. we can change the value of array using its index, it is mutable unlike string which is inmutable */
+/* array is a type of object. we can change the value of array using its index, it is mutable unlike string which is immutable */
 
 
 
@@ -29,6 +29,8 @@ let num = [1,2,3,4];
 // we can convert an array to string
 let numStr = num.toString();
 console.log(typeof numStr, numStr);
+
+
 
 /* we can join element of array using joiner function */
 let numJoin = num.join(" and "); // this will join the array with and

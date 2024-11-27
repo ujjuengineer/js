@@ -35,5 +35,3 @@ let str = "ujjwal sharma";
 for(let a of str){
     console.log(a);
 }
-
-

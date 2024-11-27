@@ -3,8 +3,8 @@ let obj = {
     "age" : 20,
     "grade" : 9
 }
-// let store the keys in an array 
-// console.log(obj[Object.keys(obj)[0]])
-   
-let arr = ["ujjwal", 7, 8.9, true]
-console.log(arr);
+
+let arr1 = [1,2,3,4,10,11,12,13,14];
+let a1 = arr1.map((value)=> {
+    return value<10;
+})

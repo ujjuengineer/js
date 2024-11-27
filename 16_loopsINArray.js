@@ -28,7 +28,7 @@ for(let a of num){
 /* using for in loop */
 console.log("using for in loop")
 for(let a in num) {
-    console.log(num[a]); // note that here a = 0,1,2,3 {object k andar for inloop keys deta tha, yaha index dega}
+    console.log(num[a]); // note that here a = 0,1,2,3 {object k andar for inloop keys deta tha, yaha index dega} 
 }
 // see the difference between for in loop and for of loop
 
