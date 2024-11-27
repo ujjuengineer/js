@@ -41,7 +41,7 @@ the score = 100 - (number of guesses user took to guess correct number )
 
 
 // generate random value from array
-let arr = ["ujjwal", "kalua", "ganesh", "ram", "ash", "pari"]
+let arr = ["ujjwal", "kalua", "ganesh", "ram", "ash", "ras"]
 
 // we have to choose random index ranging from 0 to arr.length-1
 // min = 0, max = arr.length-1

@@ -40,5 +40,5 @@ let arr3 = [1,5,2,6,3];
 let newArr3 = arr3.reduce((x1,x2)=>{
     return x1 + x2; // it will take 1+5=6 => 6+2=8 => 8+6=14 => 14+3=17
 })
-console.log(newArr3);
+console.log(newArr3); 
 
